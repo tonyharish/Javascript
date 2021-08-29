@@ -1,0 +1,35 @@
+.first {
+  border-style: dashed;
+  width:50%;
+  margin-left:50px;
+}
+
+.second {
+  border-style: dashed;
+  width:50%;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.first h1{
+    color:blue;
+
+}
+
+.second h1{
+    color:crimson;
+}
+
+.first p{
+    color:darkgoldenrod;
+}
+
+.second p{
+    color: rgb(18, 29, 180);
+}
+
+.first h1::first-letter{
+    color:black;
+}
+
+
